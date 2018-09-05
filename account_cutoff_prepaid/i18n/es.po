@@ -1,21 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_cutoff_prepaid
-# 
+#
 # Translators:
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: account-closing (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-13 07:33+0000\n"
-"PO-Revision-Date: 2016-11-11 18:07+0000\n"
-"Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-closing-8-0/language/es/)\n"
+"POT-Creation-Date: 2017-06-07 02:50+0000\n"
+"PO-Revision-Date: 2017-06-09 02:14+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-closing-8-0/"
+"language/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_cutoff_prepaid
@@ -24,10 +25,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "        Click to start preparing a new prepaid expense.\n"
 "        </p><p>\n"
-"        This view can be used by accountants in order to collect information about prepaid expenses based on start date and end date. It then allows to generate the corresponding cutoff journal entry in one click.\n"
+"        This view can be used by accountants in order to collect information "
+"about prepaid expenses based on start date and end date. It then allows to "
+"generate the corresponding cutoff journal entry in one click.\n"
 "        </p>\n"
 "    "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para comenzar a preparar una nueva periodificación de gastos.\n</p><p>\nEsta vista puede ser utilizada por los contables para recoger la información sobre los pagos anticipados basados en una fecha de comienzo y una fecha de fin. Le permite entonces generar el asiento de la periodificación en una sola pulsación.\n</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"Pulse para comenzar a preparar una nueva periodificación de gastos.\n"
+"</p><p>\n"
+"Esta vista puede ser utilizada por los contables para recoger la información "
+"sobre los pagos anticipados basados en una fecha de comienzo y una fecha de "
+"fin. Le permite entonces generar el asiento de la periodificación en una "
+"sola pulsación.\n"
+"</p>"
 
 #. module: account_cutoff_prepaid
 #: model:ir.actions.act_window,help:account_cutoff_prepaid.account_cutoff_prepaid_revenue_action
@@ -35,10 +46,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "        Click to start preparing a new prepaid revenue.\n"
 "        </p><p>\n"
-"        This view can be used by accountants in order to collect information about prepaid revenues based on start date and end date. It then allows to generate the corresponding cutoff journal entry in one click.\n"
+"        This view can be used by accountants in order to collect information "
+"about prepaid revenues based on start date and end date. It then allows to "
+"generate the corresponding cutoff journal entry in one click.\n"
 "        </p>\n"
 "    "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para comenzar a preparar una nueva periodificación de ingresos.\n</p><p>\nEsta vista puede ser utilizada por los contables para recoger la información sobre los ingresos anticipados basados en una fecha de comienzo y una fecha de fin. Le permite entonces generar el asiento de la periodificación en una sola pulsación.\n</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"Pulse para comenzar a preparar una nueva periodificación de ingresos.\n"
+"</p><p>\n"
+"Esta vista puede ser utilizada por los contables para recoger la información "
+"sobre los ingresos anticipados basados en una fecha de comienzo y una fecha "
+"de fin. Le permite entonces generar el asiento de la periodificación en una "
+"sola pulsación.\n"
+"</p>"
 
 #. module: account_cutoff_prepaid
 #: sql_constraint:account.cutoff:0
@@ -112,18 +133,6 @@ msgid "End Date"
 msgstr "Fecha final"
 
 #. module: account_cutoff_prepaid
-#: constraint:account.invoice.line:0 constraint:account.move.line:0
-msgid "Error msg in raise"
-msgstr "Mensaje de error del raise"
-
-#. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:40
-#: code:addons/account_cutoff_prepaid/account.py:46
-#: code:addons/account_cutoff_prepaid/account.py:53
-#: code:addons/account_cutoff_prepaid/account.py:89
-#: code:addons/account_cutoff_prepaid/account.py:94
-#: code:addons/account_cutoff_prepaid/account.py:100
-#: code:addons/account_cutoff_prepaid/account.py:144
 #: code:addons/account_cutoff_prepaid/account_cutoff.py:85
 #: code:addons/account_cutoff_prepaid/account_cutoff.py:128
 #, python-format
@@ -135,7 +144,9 @@ msgstr "Error:"
 msgid ""
 "If this option is active, the user will have to enter a Start Date and an "
 "End Date on the invoice lines that have this product."
-msgstr "Si está opción está activada, el usuario tendrá que introducir una fecha de inicio y de fin en las líneas de facturas que utilicen este producto."
+msgstr ""
+"Si está opción está activada, el usuario tendrá que introducir una fecha de "
+"inicio y de fin en las líneas de facturas que utilicen este producto."
 
 #. module: account_cutoff_prepaid
 #: field:account.cutoff.line,invoice_id:0
@@ -160,27 +171,30 @@ msgid "Missing End Date for invoice line with Description '%s'."
 msgstr "Falta la fecha final en la línea de factura con la descripción '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:90
+#: code:addons/account_cutoff_prepaid/account.py:82
 #, python-format
 msgid "Missing End Date for move line with Name '%s'."
 msgstr "Falta la fecha final en el apunte con el nombre '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:145
+#: code:addons/account_cutoff_prepaid/account.py:129
 #, python-format
 msgid ""
-"Missing Start Date and End Date for invoice line with Product '%s' which has"
-" the property 'Must Have Start and End Dates'."
-msgstr "Falta la fecha de inicio o de fin para la línea de factura con el producto '%s' que tiene marcada la casilla 'Debe tener fecha de inicio y de fin'."
+"Missing Start Date and End Date for invoice line with Product '%s' which has "
+"the property 'Must Have Start and End Dates'."
+msgstr ""
+"Falta la fecha de inicio o de fin para la línea de factura con el producto "
+"'%s' que tiene marcada la casilla 'Debe tener fecha de inicio y de fin'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:47
+#: code:addons/account_cutoff_prepaid/account.py:46
 #, python-format
 msgid "Missing Start Date for invoice line with Description '%s'."
-msgstr "Falta la fecha de inicio en la línea de factura con la descripción '%s'."
+msgstr ""
+"Falta la fecha de inicio en la línea de factura con la descripción '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:95
+#: code:addons/account_cutoff_prepaid/account.py:86
 #, python-format
 msgid "Missing Start Date for move line with Name '%s'."
 msgstr "Falta la fecha de inicio en el apunte con el nombre '%s'."
@@ -235,18 +249,22 @@ msgid "Start Date"
 msgstr "Fecha de inicio"
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:101
+#: code:addons/account_cutoff_prepaid/account.py:91
 #, python-format
 msgid "Start Date should be before End Date for move line with Name '%s'."
-msgstr "La fecha de inicio debe ser posterior a la fecha de fin para el apunte con nombre '%s'."
+msgstr ""
+"La fecha de inicio debe ser posterior a la fecha de fin para el apunte con "
+"nombre '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:54
+#: code:addons/account_cutoff_prepaid/account.py:52
 #, python-format
 msgid ""
-"Start Date should be before or be the same as End Date for invoice line with"
-" Description '%s'."
-msgstr "La fecha de inicio debe ser anterior a la fecha de fin para la línea de factura con la descripción '%s'."
+"Start Date should be before or be the same as End Date for invoice line with "
+"Description '%s'."
+msgstr ""
+"La fecha de inicio debe ser anterior a la fecha de fin para la línea de "
+"factura con la descripción '%s'."
 
 #. module: account_cutoff_prepaid
 #: field:account.cutoff.line,total_days:0

@@ -1,22 +1,24 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_cutoff_prepaid
-# 
+#
 # Translators:
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: account-closing (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-18 23:11+0000\n"
-"PO-Revision-Date: 2015-12-20 06:42+0000\n"
-"Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
-"Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-closing-8-0/language/sl/)\n"
+"POT-Creation-Date: 2017-06-07 02:50+0000\n"
+"PO-Revision-Date: 2017-06-06 12:55+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-"
+"closing-8-0/language/sl/)\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 
 #. module: account_cutoff_prepaid
 #: model:ir.actions.act_window,help:account_cutoff_prepaid.account_cutoff_prepaid_expense_action
@@ -24,10 +26,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "        Click to start preparing a new prepaid expense.\n"
 "        </p><p>\n"
-"        This view can be used by accountants in order to collect information about prepaid expenses based on start date and end date. It then allows to generate the corresponding cutoff journal entry in one click.\n"
+"        This view can be used by accountants in order to collect information "
+"about prepaid expenses based on start date and end date. It then allows to "
+"generate the corresponding cutoff journal entry in one click.\n"
 "        </p>\n"
 "    "
-msgstr "<p class=\"oe_view_nocontent_create\">\n        Pripravi novo razmejeno stroškovno predplačilo.\n        </p><p>\n        Ta prikaz omogoča knjigovodjem zbiranje informacij o razmejenih predplačilih glede na začetni in končni datum. Omogoča ustvarjanje ustrezajočih dnevniških vnosov razmejitev. \n        </p>\n    "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"        Pripravi novo razmejeno stroškovno predplačilo.\n"
+"        </p><p>\n"
+"        Ta prikaz omogoča knjigovodjem zbiranje informacij o razmejenih "
+"predplačilih glede na začetni in končni datum. Omogoča ustvarjanje "
+"ustrezajočih dnevniških vnosov razmejitev. \n"
+"        </p>\n"
+"    "
 
 #. module: account_cutoff_prepaid
 #: model:ir.actions.act_window,help:account_cutoff_prepaid.account_cutoff_prepaid_revenue_action
@@ -35,10 +47,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "        Click to start preparing a new prepaid revenue.\n"
 "        </p><p>\n"
-"        This view can be used by accountants in order to collect information about prepaid revenues based on start date and end date. It then allows to generate the corresponding cutoff journal entry in one click.\n"
+"        This view can be used by accountants in order to collect information "
+"about prepaid revenues based on start date and end date. It then allows to "
+"generate the corresponding cutoff journal entry in one click.\n"
 "        </p>\n"
 "    "
-msgstr "<p class=\"oe_view_nocontent_create\">\n        Pripravi novo razmejeno prihodkovno predplačilo.\n        </p><p>\n        Ta prikaz omogoča knjigovodjem zbiranje informacij o razmejenih predplačilih glede na začetni in končni datum. Omogoča ustvarjanje ustrezajočih dnevniških vnosov razmejitev. \n        </p>\n    "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"        Pripravi novo razmejeno prihodkovno predplačilo.\n"
+"        </p><p>\n"
+"        Ta prikaz omogoča knjigovodjem zbiranje informacij o razmejenih "
+"predplačilih glede na začetni in končni datum. Omogoča ustvarjanje "
+"ustrezajočih dnevniških vnosov razmejitev. \n"
+"        </p>\n"
+"    "
 
 #. module: account_cutoff_prepaid
 #: sql_constraint:account.cutoff:0
@@ -112,18 +134,6 @@ msgid "End Date"
 msgstr "Končni datum"
 
 #. module: account_cutoff_prepaid
-#: constraint:account.invoice.line:0 constraint:account.move.line:0
-msgid "Error msg in raise"
-msgstr "Sproženo sporočilo ob napaki"
-
-#. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:40
-#: code:addons/account_cutoff_prepaid/account.py:46
-#: code:addons/account_cutoff_prepaid/account.py:53
-#: code:addons/account_cutoff_prepaid/account.py:89
-#: code:addons/account_cutoff_prepaid/account.py:94
-#: code:addons/account_cutoff_prepaid/account.py:100
-#: code:addons/account_cutoff_prepaid/account.py:144
 #: code:addons/account_cutoff_prepaid/account_cutoff.py:85
 #: code:addons/account_cutoff_prepaid/account_cutoff.py:128
 #, python-format
@@ -135,7 +145,9 @@ msgstr "Napaka:"
 msgid ""
 "If this option is active, the user will have to enter a Start Date and an "
 "End Date on the invoice lines that have this product."
-msgstr "Če je ta opcija aktivna, bo uporabnik moral vnašati začetni in končni datum v postavke računov, ki vsebujejo ta proizvod."
+msgstr ""
+"Če je ta opcija aktivna, bo uporabnik moral vnašati začetni in končni datum "
+"v postavke računov, ki vsebujejo ta proizvod."
 
 #. module: account_cutoff_prepaid
 #: field:account.cutoff.line,invoice_id:0
@@ -160,27 +172,29 @@ msgid "Missing End Date for invoice line with Description '%s'."
 msgstr "Manjkajoči končni datum pri postavki računa z opisom '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:90
+#: code:addons/account_cutoff_prepaid/account.py:82
 #, python-format
 msgid "Missing End Date for move line with Name '%s'."
 msgstr "Manjkajoči končni datum pri postavki premika z nazivom '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:145
+#: code:addons/account_cutoff_prepaid/account.py:129
 #, python-format
 msgid ""
-"Missing Start Date and End Date for invoice line with Product '%s' which has"
-" the property 'Must Have Start and End Dates'."
-msgstr "Manjkajoči začetni in končni datumi pri postavki računa s proizvodom '%s', ki ima označeno lastnost 'mora vsebovati začetni in končni datum'."
+"Missing Start Date and End Date for invoice line with Product '%s' which has "
+"the property 'Must Have Start and End Dates'."
+msgstr ""
+"Manjkajoči začetni in končni datumi pri postavki računa s proizvodom '%s', "
+"ki ima označeno lastnost 'mora vsebovati začetni in končni datum'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:47
+#: code:addons/account_cutoff_prepaid/account.py:46
 #, python-format
 msgid "Missing Start Date for invoice line with Description '%s'."
 msgstr "Manjkajoči začetni datum pri postavki računa z opisom '%s'."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:95
+#: code:addons/account_cutoff_prepaid/account.py:86
 #, python-format
 msgid "Missing Start Date for move line with Name '%s'."
 msgstr "Manjkajoči začetni datum pri postavki premika z nazivom '%s'."
@@ -235,18 +249,22 @@ msgid "Start Date"
 msgstr "Začetni datum"
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:101
+#: code:addons/account_cutoff_prepaid/account.py:91
 #, python-format
 msgid "Start Date should be before End Date for move line with Name '%s'."
-msgstr "Začetni datum mora biti, pri postavki premika z nazivom '%s', pred končnim datumom."
+msgstr ""
+"Začetni datum mora biti, pri postavki premika z nazivom '%s', pred končnim "
+"datumom."
 
 #. module: account_cutoff_prepaid
-#: code:addons/account_cutoff_prepaid/account.py:54
+#: code:addons/account_cutoff_prepaid/account.py:52
 #, python-format
 msgid ""
-"Start Date should be before or be the same as End Date for invoice line with"
-" Description '%s'."
-msgstr "Začetni datum mora biti, pri postavki računa z opisom '%s', enak ali pred končnim datumom."
+"Start Date should be before or be the same as End Date for invoice line with "
+"Description '%s'."
+msgstr ""
+"Začetni datum mora biti, pri postavki računa z opisom '%s', enak ali pred "
+"končnim datumom."
 
 #. module: account_cutoff_prepaid
 #: field:account.cutoff.line,total_days:0
